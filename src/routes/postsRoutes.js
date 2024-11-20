@@ -1,5 +1,5 @@
 import express from "express";
-import { listarPosts } from "../controllers/postsController.js";
+import { listarPosts } from "../controllers/postsControllers.js";
 
 const routes = (app) => {
   app.use(express.json());
