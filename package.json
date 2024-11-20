@@ -1,10 +1,10 @@
 {
-  "name": "",
+  "name": "instalike-back",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "license": "AGPL-version-3.0",
+  "license": "MIT",
   "private": false,
   "engines": {
     "node": ">= 14.0.0",
@@ -16,12 +16,7 @@
     "url": ""
   },
   "bugs": "",
-  "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
+  "keywords": [],  
   "contributors": [],
   "scripts": {
     "dev": "node --watch --env-file=.env server.js",
