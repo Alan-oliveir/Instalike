@@ -4,7 +4,7 @@ import {
   listarPosts,
   postarNovoPost,
   uploadImagem,
-} from "../controllers/postsController.js";
+} from "../controllers/postsControllers.js";
 
 // Configura o armazenamento do Multer para uploads de imagens
 const storage = multer.diskStorage({
