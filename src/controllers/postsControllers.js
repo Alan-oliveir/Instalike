@@ -1,5 +1,6 @@
 import fs from "fs";
 import { getTodosPosts } from "../models/postsModels.js";
+import { criarPost } from "../models/postsModels.js";
 
 export async function listarPosts(req, res) {
   const posts = await getTodosPosts();
@@ -19,9 +20,9 @@ export async function postarNovoPost(req, res) {
 
 export async function uploadImagem(req, res) {
   const novoPost = {
-    descricao: "",
+    descricao: req.body.descricao || "",
     imgUrl: req.file.originalname,
-    alt: "",
+    alt: req.body.alt || "",
   };
 
   try {
@@ -30,7 +31,7 @@ export async function uploadImagem(req, res) {
     fs.renameSync(req.file.path, imagemAtualizada);
     res.status(200).json(postCriado);
   } catch (erro) {
-    console.error(erro.message);
-    res.status(500).json({ Erro: "Falha na requisição" });
+    console.error("Erro ao fazer upload:", erro.message, erro.stack);
+    res.status(500).json({ Erro: "Falha na requisição." });
   }
 }

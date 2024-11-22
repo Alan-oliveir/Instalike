@@ -16,7 +16,6 @@ const storage = multer.diskStorage({
   },
 });
 
-// Cria uma instância do middleware Multer
 const upload = multer({ storage: storage });
 
 const routes = (app) => {
