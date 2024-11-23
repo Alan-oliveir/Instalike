@@ -35,7 +35,7 @@ export async function uploadImagem(req, res) {
     fs.renameSync(req.file.path, imagemAtualizada);
     res.status(200).json(postCriado);
   } catch (erro) {
-    console.error("Erro ao fazer upload:", erro.message, erro.stack);
+    console.error("Erro ao fazer upload:", erro.message, erro);
     res.status(500).json({ Erro: "Falha na requisição." });
   }
 }
@@ -56,7 +56,7 @@ export async function atualizarNovoPost(req, res) {
     const postCriado = await atualizarPost(id, post);
     res.status(200).json(postCriado);
   } catch (erro) {
-    console.error(erro.message);
+    console.error("Erro ao fazer upload:", erro.message, erro);
     res.status(500).json({ Erro: "Falha na requisição" });
   }
 }

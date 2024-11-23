@@ -24,7 +24,7 @@ const routes = (app) => {
   app.get("/posts", listarPosts);
   app.post("/posts", postarNovoPost);
   app.post("/upload", upload.single("imagem"), uploadImagem); // Rota para upload da imagem
-  app.put("/upload/:id", atualizarNovoPost); // Rota para atualizar a imagem
+  app.put("/upload/:id", atualizarNovoPost); // Rota para atualizar a descricao da imagem
 };
 
 export default routes;
