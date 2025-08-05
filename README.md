@@ -261,7 +261,7 @@ A combinação do **aprendizado estruturado da Alura** com a **agilidade do GitH
 - **Experiência completa** para o usuário final
 - **Projeto profissional** pronto para produção
 
-##👥 Autor
+## 👥 Autor
 
 **Alan Oliveira**
 - GitHub: [@Alan-oliveir](https://github.com/Alan-oliveir)
