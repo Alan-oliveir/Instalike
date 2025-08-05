@@ -88,3 +88,6 @@ typings/
 .dynamodb/
 
 chave.txt
+
+# IDEs and editors
+.vscode/*
