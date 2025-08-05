@@ -230,7 +230,7 @@ O **frontend moderno e responsivo** foi desenvolvido com o auxílio do **GitHub 
 
 O Copilot ajudou a criar uma experiência de usuário profissional em tempo recorde, mantendo as melhores práticas de desenvolvimento.
 
-## �️ Processo de Desenvolvimento
+## Processo de Desenvolvimento
 
 ### 📚 Backend - Imersão Alura
 O desenvolvimento do backend seguiu a metodologia da **Imersão Dev Backend da Alura**:
@@ -261,7 +261,7 @@ A combinação do **aprendizado estruturado da Alura** com a **agilidade do GitH
 - **Experiência completa** para o usuário final
 - **Projeto profissional** pronto para produção
 
-## �👥 Autor
+##👥 Autor
 
 **Alan Oliveira**
 - GitHub: [@Alan-oliveir](https://github.com/Alan-oliveir)
